@@ -93,15 +93,15 @@
                     <!-- 购物车 -->
                     <div class="shopping clearfix">
                         <p class="f16 c4d fl">种类选择：</p>
-                        <button class="f16 c4d ipt1 fl">平装版<span>√</span></button>
-                        <button class="f16 c4d ipt2 active fl">精装版<span class="url">√</span></button>
+                        <button class="f16 c4d ipt1 fl">平装版<span>✓</span></button>
+                        <button class="f16 c4d ipt2 active fl">精装版<span class="url">✓</span></button>
                     </div>
                     <!-- 添加购物车 -->
                     <div class="addShop clearfix">
                         <div class="lft fl">
                             <div class="boxes">1</div>
-                            <button class="boxes1">+</button>
-                            <button class="boxes2">-</button>
+                            <button class="boxes1 f24 c80">+</button>
+                            <button class="boxes2 f24 c80">-</button>
                         </div>
                         <button class="f26 cfe fl bgf60">加入购物车</button>
                     </div>
@@ -299,44 +299,284 @@
         <!-- 右边盒子 -->
         <div class="rightbox fr">
             <div class="box">
-                <button class="f24 c4d">商品介绍</button>
-                <button class="f24 c4d">评价（9999）</button>
+                <button class="f24 c4d sp">商品介绍</button>
+                <button class="f24 c4d active pj">评价（9999）</button>
             </div>
-            <div class="box1 clearfix">
-                <div class="fl box2">98% <span class="f20 c99">好评度</span></div>
-                <div class="box3 fr f16 c66">
-                    <ul class="clearfix">
-                        <li class="c99">
-                            
+            <!-- 评价（9999） -->
+            <div class="onebox">
+                <div class="box1 clearfix">
+                    <div class="fl box2">98% <span class="f20 c99">好评度</span></div>
+                    <div class="box3 fr f16 c66">
+                        <ul class="clearfix">
+                            <li>
+                                <p class="c99 f16" style="width: 88px;">好评（92%）</p>
+                            </li>
+                            <li>
+                                <p style="position: relative; width: 150px; height: 16px; background:#e6e6e6;">
+                                    <span
+                                        style="position: absolute; width: 146px; height: 16px; background:#f8380c;"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="c66 f16" style="width: 135px; margin: 0 65px 0 42px;">
+                                    1.洲**子&emsp;&emsp;&emsp;+0</p>
+                            </li>
+                            <li>
+                                <p class="c66 f16">2.洲**子&emsp;&emsp;&emsp;+0</p>
+                            </li>
+                        </ul>
+                        <ul class="clearfix" style="margin: 13px 0;">
+                            <li class="c99">
+                                <p class="c99 f16" style="width: 88px;">中评（2%）</p>
+                            </li>
+                            <li>
+                                <p style="position: relative; width: 150px; height: 16px; background:#e6e6e6;">
+                                    <span
+                                        style="position: absolute; width: 5px; height: 16px; background:#f8380c;"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="c66 f16" style="width: 135px; margin: 0 65px 0 42px;">
+                                    3.洲**子&emsp;&emsp;&nbsp;+10</p>
+                            </li>
+                            <li>
+                                <p class="c66 f16">4.洲**子&emsp;&emsp;&nbsp;+10</p>
+                            </li>
+                        </ul>
+                        <ul class="clearfix">
+                            <li class="c99">
+                                <p class="c99 f16" style="width: 88px;">差评（0%）</p>
+                            </li>
+                            <li>
+                                <p style="position: relative; width: 150px; height: 16px; background:#e6e6e6;"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 全部评价 -->
+                <div class="quanbu clearfix">
+                    <ul>
+                        <li class="active">
+                            <p>全部评价（9999）</p>
                         </li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <ul class="clearfix">
-                        <li class="c99">
-
+                        <li>
+                            <p>好评（888）</p>
                         </li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <ul class="clearfix">
-                        <li class="c99">
-
+                        <li>
+                            <p>中评（888）</p>
                         </li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>
+                            <p>差评（888）</p>
+                        </li>
                     </ul>
                 </div>
+                <!-- 内容 -->
+                <div class="ctnt">
+                    <ul>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="zuo fl">
+                                <p></p>
+                                <p class="ca6 f14">下单后5天评论</p>
+                                <p class="ca6 f14">2016-08-11</p>
+                            </div>
+                            <div class="zhong fl">
+                                <p class="f14 c66">书的质量不错，很新，一点放久的潮味或臭味都没有，内容也值得一看，关键是价格真给力</p>
+                            </div>
+                            <div class="you fr">
+                                <p class="f14 c66">洲**子</p>
+                                <p class="f14" style="color:#f4b212">金牌会员</p>
+                                <p class="f14 c80">来自iPhone客户端</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 底部 -->
+                <div class="dibu clearfix">
+                    <ul class="fr">
+                        <li class="active"><button>1</button></li>
+                        <li><button>2</button></li>
+                        <li><button>3</button></li>
+                        <li><button>4</button></li>
+                        <li><button>5</button></li>
+                        <li><button>6</button></li>
+                        <li>……</li>
+                        <li><button>下一页</button></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 商品介绍 -->
+            <div class="twobox hide">
+                <img src="./商城素材/img/03-chanpinjieshao.jpg" width="750px" height="3290px">
             </div>
         </div>
     </section>
     <!-- 页尾 -->
+    <div id="ftopp"></div>
     <footer>
         <div class="fot">
             <div class="warp">

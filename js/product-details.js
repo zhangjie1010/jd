@@ -13,6 +13,10 @@ $(function () {
     let add = 1;
     $("#theBook .addShop .lft .boxes1").click(function(){
         add++;
+        if(add>99){
+            $("#theBook .addShop .lft .boxes").html("99");
+            add=99;
+        }
         $("#theBook .addShop .lft .boxes").html(add);
     });
     $("#theBook .addShop .lft .boxes2").click(function(){
@@ -30,5 +34,27 @@ $(function () {
     }, function () {
         $(this).css({ background: '#fff' });
         $(this).find("del").css({ display: 'none' });
+    });
+    // 商品介绍评价和介绍
+    $("#introduction .rightbox .box button").click(function(){
+        $(this).addClass("active").siblings().removeClass("active")
+    });
+    $("#introduction .rightbox .box .pj").click(function(){
+        $("#introduction .rightbox .onebox").removeClass("hide");
+        $("#introduction .rightbox .twobox").addClass("hide");
+    });
+    $("#introduction .rightbox .box .sp").click(function(){
+        $("#introduction .rightbox .twobox").removeClass("hide");
+        $("#introduction .rightbox .onebox").addClass("hide");
+    });
+    // 商品介绍-右边盒子-全部评价
+    $("#introduction .rightbox .quanbu li").click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+    });
+    //商品介绍-右边盒子-评价
+    $("#introduction .rightbox .dibu li").click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+        $(this).find("button").css({color:'#f8380c'});
+        $(this).siblings().find("button").css({color:'#999'});
     });
 });

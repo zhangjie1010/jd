@@ -115,8 +115,8 @@
 
 .innerwrapper li
 {
-    width:400px;
-    height:100px;
+    width:1000px;
+    height:130px;
     float: left;
 }
 .innerwrapper li a
@@ -126,8 +126,8 @@
 
 .innerwrapper li a img
 {
-    width: 400px;
-    height:100px;
+    width: 1000px;
+    height:430px;
     display:block;
 }
 
@@ -213,6 +213,12 @@
 }
 
 /* 电子书 */
+#ebook .innerwrapper li a img
+{
+    width: 328px;
+    height:216px;
+    display:block;
+}
 /* 左边内容 */
 #ebook{
     position: relative;
@@ -320,6 +326,12 @@
 }
 
 /* 服装 */
+#cloth .innerwrapper li a img
+{
+    width: 423px;
+    height:338px;
+    display:block;
+}
 .fuzhuang{
     width: 236px;
     height: 450px;
@@ -389,6 +401,12 @@
 
 
 /* 户外运动 */
+#sport .innerwrapper li a img
+{
+    width: 423px;
+    height:338px;
+    display:block;
+}
 #sport .fuzhuang{
     width: 236px;
     height: 450px;
@@ -405,6 +423,12 @@
 }
 
 /* 童装 */
+#childcloth .innerwrapper li a img
+{
+    width: 423px;
+    height:338px;
+    display:block;
+}
 #childcloth .fuzhuang{
     width: 236px;
     height: 450px;

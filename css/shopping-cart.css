@@ -1,0 +1,219 @@
+@charset 'utf-8';
+/* 头部 */
+header{
+    height: 105px;
+}
+header .top .txturl{
+    position: absolute;
+    left:265px;
+}
+header .searchbox .releft{
+    position: absolute;
+    width: 258px;
+    height: 105px;
+    background:#f60 url("../商城素材/img/04-ghouwu.jpg") no-repeat;
+    background-size: 258px 105px;
+    top:-32px;
+}
+/* 购物车 */
+#shooping button{
+    background:#fff;
+}
+#shooping button.active{
+    background: #f60;
+}
+#shooping{
+    height: 620px;
+    margin-top: 20px;
+}
+#shooping .box{
+    line-height: 60px;
+    color:#808080;
+    height: 60px;
+    background:#f2f2f2;
+}
+#shooping .box button{
+    width: 16px;
+    height: 16px;
+    margin:21px 6px 0 23px;
+    border:1px solid #ccc;
+    outline: none;
+}
+#shooping .box span{
+    float: left;
+}
+#shooping .box1{
+    height: 423px;
+    margin-top: 19px;
+    border-top: 6px solid #dfdfdf;
+}
+#shooping .box1 li:first-child{
+    height: 188px;
+    padding-top: 21px;
+}
+#shooping .box1 li{
+    height: 183px;
+    padding-top: 26px;
+    border-bottom: 2px solid #e6e6e6;
+}
+#shooping .box1 li>button{
+    width: 16px;
+    height: 16px;
+    border:1px solid #ccc;
+    margin:0 33px 0 23px;
+    outline: none;
+}
+#shooping .box1 li .tu{
+    padding:6px 8px 8px 23px;
+    width: 127px;
+    height: 144px;
+    border:1px solid #e5e5e5;
+}
+#shooping .box1 li .ctn{
+    margin-left: 30px;
+}
+#shooping .box1 li .ctn .anniu{
+    position: relative;
+    display: inline-block;
+    width: 126px;
+    height: 26px;
+    border:1px solid #ccc;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+#shooping .box1 li .ctn .anniu .bt1{
+    margin:0;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border:0;
+    font-size: 16px;
+    line-height: 26px;
+    color:#4d4d4d;
+    text-align: center;
+    background:#fff;
+}
+#shooping .box1 li .ctn .anniu input{
+    position: relative;
+    width: 72px;
+    height: 26px;
+    border:0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    left:26px;
+    text-align: center;
+    outline: none;
+}
+#shooping .box1 li .ctn .anniu .bt2{
+    margin:0;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border:0;
+    font-size: 16px;
+    line-height: 26px;
+    color:#4d4d4d;
+    text-align: center;
+    right:0;
+    background:#fff;
+}
+#shooping .box1 li .ctn .sc{
+    margin-left: 130px;
+    margin-top: 22px;
+    width: 100px;
+}
+
+
+#shooping .box2{
+    position: relative;
+    margin-top:29px;
+}
+#shooping .box2 .lisLeft{
+    width: 1070px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 16px;
+    border:1px solid #ccc;
+    color:#808080;
+}
+#shooping .box2 .lisLeft button{
+    width: 16px;
+    height: 16px;
+    margin:21px 6px 0 23px;
+    border:1px solid #ccc;
+    outline: none;
+}
+#shooping .box2 .lisLeft>span{
+    float: left;
+}
+#shooping .box2 .lisRight{
+    width: 128px;
+    height: 60px;
+}
+#shooping .box2 .lisRight button{
+    width: 128px;
+    height: 60px;
+    position: absolute;
+    background:#f60;
+    border:0;
+    right: 0;
+    top:0;
+    outline: none;s
+}
+
+
+
+/* 猜你喜欢 */
+#sentiment{
+    margin-top: 37px;
+}
+#sentiment .box{
+    position: relative;
+    height: 47px;
+    border-bottom: 6px solid #f60;
+}
+#sentiment .box p{
+    position: absolute;
+    text-align: center;
+    line-height: 47px;
+    width: 124px;
+    height: 47px;
+    bottom: 0px;
+}
+#sentiment li{
+    float: left;
+    width: 210px;
+    height: 258px;
+    margin-bottom: 4px;
+    margin-right: 37px;
+}
+#sentiment ul li:nth-child(5){
+    margin-right: 0;
+}
+#sentiment li a img{
+    margin:7px 30px 0;
+    /* 处理图片三像素问题 */
+    vertical-align: middle;
+}
+#sentiment li p{
+    text-indent: 10px;
+}
+#sentiment li p span{
+    line-height: 24px;
+}
+#sentiment li p del{
+    line-height: 24px;
+    display: none;
+}
+
+
+
+#ftopp{
+    margin:90px auto 0;
+    width: 1200px;
+    height: 90px;
+    background:url("../商城素材/img/mosho.jpg") no-repeat;
+}
+footer .fot{
+    margin-top:0;
+}

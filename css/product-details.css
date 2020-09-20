@@ -130,7 +130,8 @@ header .searchbox .releft{
 }
 #theBook .litRight .shopping button span{
     position: absolute;
-    width: 16px;
+    width: 14px;
+    padding-left: 2px;
     height: 14px;
     background:#f60;
     color:#fff;
@@ -171,6 +172,7 @@ header .searchbox .releft{
     display: inline-block;
     position: absolute;
     width: 21px;
+    line-height: 21px;
     height: 21px;
     right: 0;
     top: 0;
@@ -181,6 +183,7 @@ header .searchbox .releft{
     outline: none;
     background:#e5e5e5;
     display: inline-block;
+    line-height: 21px;
     width: 21px;
     height: 21px;
     right: 0;
@@ -239,6 +242,7 @@ header .searchbox .releft{
 /* 商品介绍 */
 #introduction{
     margin-top: 45px;
+    height: 3355px;
 }
 /* 左边 */
 #introduction .leftbox{
@@ -278,9 +282,8 @@ header .searchbox .releft{
 }
 /* 右边 */
 #introduction .rightbox{
-    width: 870px;
+    width: 856px;
     height: 2210px;
-    background:#f2f2f2;
 }
 #introduction .rightbox .box{
     position: relative;
@@ -309,7 +312,7 @@ header .searchbox .releft{
 #introduction .rightbox .box1{
     width: 790px;
     height: 80px;
-    margin:45px auto;
+    margin:46px auto;
 }
 #introduction .rightbox .box1 .box2{
     position: absolute;
@@ -326,10 +329,108 @@ header .searchbox .releft{
     bottom: -15px;
 }
 #introduction .rightbox .box1 .box3{
-    width: 600px;
+    width: 610px;
     height: 80px;
-    background:#0f0;
 }
 #introduction .rightbox .box1 .box3 li{
     float: left;
+}
+/* 全部评价 */
+#introduction .rightbox .quanbu{
+    padding-left: 22px;
+    width: 834px;
+    height: 30px;
+    background:#f5f5f5;
+}
+#introduction .rightbox .quanbu li{
+    float: left;
+    margin-right: 35px;
+    line-height: 30px;
+    cursor: pointer;
+}
+#introduction .rightbox .quanbu li.active{
+    color:#f8380c;
+}
+/* 内容 */
+#introduction .rightbox .ctnt li{
+    width: 836px;
+    height: 124px;
+    padding:25px 0 0 20px;
+    border-bottom: 2px solid #f5f5f5;
+}
+#introduction .rightbox .ctnt li .zuo{
+    float: left;
+    width: 115px;
+    line-height: 20px;
+}
+#introduction .rightbox .ctnt .zuo p:first-child{
+    margin-bottom: 5px;
+    width: 115px;
+    height: 20px;
+    background: url("../商城素材/img/star_small.gif");
+    background-position-y: -40px;
+}
+#introduction .rightbox .ctnt li .zhong{
+    width: 462px;
+    margin-left:58px;
+}
+#introduction .rightbox .ctnt li .you{
+    width: 115px;
+
+}
+#introduction .rightbox .ctnt li .you p:first-child{
+    text-indent: 35px;
+    line-height: 30px;
+    margin-top: -5px;
+    background: url("../商城素材/img/03-tu.jpg") no-repeat;
+}
+/* 底部 */
+#introduction .rightbox .dibu li{
+    float: left;
+    margin-top: 26px;
+    text-align: center;
+    width: 31px;
+    height: 31px;
+    border:1px solid #e5e5e5;
+    background:#e5e5e5;
+    margin-right: 7px;
+}
+#introduction .rightbox .dibu li:nth-child(7){
+    background:#fff;
+    border:0;line-height: 55px;
+}
+#introduction .rightbox .dibu li:nth-child(8){
+    width: 62px;
+    margin-right: 5px;
+}
+#introduction .rightbox .dibu li button{
+    font-size: 18px;
+    line-height: 31px;
+    color:#999;
+    background:rgba(0, 0, 0, 0);
+    border:0;
+    outline: none;
+}
+#introduction .rightbox .dibu li button:first-child{
+    color:#f8380c;
+}
+#introduction .rightbox .dibu li.active{
+    border:0;
+    background:#fff;
+}
+
+/* 商品介绍 */
+#introduction .rightbox .twobox{
+    margin-top: 10px;
+    margin-left: 62px;
+}
+
+#ftopp{
+    margin:0 auto;
+    width: 1200px;
+    height: 90px;
+    background:url("../商城素材/img/mosho.jpg") no-repeat;
+}
+footer .fot{
+    margin-top:0;
 }
