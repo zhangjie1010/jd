@@ -1,0 +1,335 @@
+@charset 'utf-8';
+/* 头部 */
+header .searchbox .releft{
+    position: absolute;
+    width: 200px;
+    height: 112px;
+    background:#f60 url("../商城素材/img/logo1_02.jpg") no-repeat;
+    background-size: 200px 112px;
+    top:-32px;
+}
+/* 图书详情 */
+#theBook{
+    height: 546px;
+    padding:20px 0 30px 0;
+    background:#f2f2f2;
+}
+#theBook .warp{
+    height: 546px;
+}
+#theBook .contens{
+    padding:14px 24px 0 23px; 
+    height: 498px;
+    background:#fff;
+}
+/* 左 */
+#theBook .contens .litLeft{
+    width: 342px;
+    height: 498px;
+    margin-right: 21px;
+    position: relative;
+}
+#theBook .contens .litLeft .box{
+    padding:0 44px;
+    width: 252px;
+    height: 348px;
+    background:#fcfcfc;
+    border:1px solid #fcfcfc;
+}
+#theBook .contens .litLeft .box2{
+    margin-top: 26px;
+    width: 342px;
+}
+#theBook .contens .litLeft .box2 button{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    background:#fff;
+    border:0;
+}
+#theBook .contens .litLeft .box2 button:nth-child(2){
+    margin:0 10px 0 15px;
+}
+#theBook .contens .litLeft .box2 button.abc{
+    width: 60px;
+    height: 60px;
+    border:2px solid #f60;
+    margin-top: -5px;
+}
+#theBook .contens .litLeft p{
+    position: absolute;
+    left:100px;
+    bottom: 26px;
+}
+/* 右 */
+#theBook .contens .litRight{
+    line-height: 35px;
+    margin-top: 10px;
+}
+#theBook .contens .litRight .box{
+    width: 788px;
+    height: 140px;
+    background:#f5f5f5;
+    margin-top: 16px;
+}
+#theBook .contens .litRight .box p{
+    text-indent: 1em;
+}
+#theBook .contens .litRight .box .bx1{
+    width: 460px;
+}
+#theBook .contens .litRight .box .bx2{
+    margin-top: 9px;
+    width: 80px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    border-left: 2px solid #ccc;
+}
+#theBook .contens .litRight .box .bx2 span{
+    margin-left: 10px;
+}
+#theBook .contens .litRight .box .bx3{
+    margin-top: 20px;
+    width: 788px;
+    height: 50px;
+} 
+#theBook .contens .litRight .box .bx3 a{
+    display: inline-block;
+    width: 88px;
+    height: 26px;
+    margin:5px 8px 0;
+    background:#f60 url("../商城素材/img/02-lingquan.jpg") ;
+}
+/* 购物车 */
+#theBook .litRight .shopping{
+    margin-top: 15px;
+    width: 305px;
+    height: 34px;
+}
+#theBook .litRight .shopping p{
+    text-indent: 1em;
+}
+#theBook .litRight .shopping .ipt1{
+    position: relative;
+    outline: none;
+    background:#fff;
+    margin-right:9px;
+    width: 98px;
+    height: 32px;
+    border:1px solid #c9c9c9;
+}
+#theBook .litRight .shopping .ipt2{
+    position: relative;
+    outline: none;
+    background:#fff;
+    width: 98px;
+    height: 32px;
+    border:1px solid #c9c9c9;
+}
+#theBook .litRight .shopping button span{
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    background:#f60;
+    color:#fff;
+    bottom: 0;
+    right: 0;
+    display:none;
+}
+#theBook .litRight .shopping button span.url{
+    display: block;
+}
+#theBook .litRight .shopping button.active{
+    width: 96px;
+    height: 30px;
+    border:2px solid #f60;
+}
+/* 添加购物车 */
+#theBook .litRight .addShop{
+    margin-top: 50px;
+}
+#theBook .litRight .addShop .lft{
+    position: relative;
+    width: 62px;
+    height: 42px;
+    margin:9px 24px 0 16px;
+}
+#theBook .addShop .lft .boxes{
+    text-align: center;
+    line-height: 35px;
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    border:1px solid #d9d9d9;
+}
+#theBook .addShop .lft .boxes1{
+    border:1px solid #d9d9d9;
+    background:#e5e5e5;
+    outline: none;
+    display: inline-block;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    right: 0;
+    top: 0;
+}
+#theBook .addShop .lft .boxes2{
+    position: absolute;
+    border:1px solid #d9d9d9;
+    outline: none;
+    background:#e5e5e5;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    right: 0;
+    top: 21px;
+}
+#theBook .addShop>button{
+    width: 190px;
+    height: 60px;
+    border:0;
+    outline: none;
+}
+
+/* 人气单品 */
+#sentiment{
+    margin-top: 3px;
+}
+#sentiment .box{
+    position: relative;
+    height: 47px;
+    border-bottom: 6px solid #f60;
+}
+#sentiment .box p{
+    position: absolute;
+    text-align: center;
+    line-height: 47px;
+    width: 124px;
+    height: 47px;
+    bottom: 0px;
+}
+#sentiment li{
+    float: left;
+    width: 210px;
+    height: 258px;
+    margin-bottom: 4px;
+    margin-right: 37px;
+}
+#sentiment ul li:nth-child(5){
+    margin-right: 0;
+}
+#sentiment li a img{
+    margin:7px 30px 0;
+    /* 处理图片三像素问题 */
+    vertical-align: middle;
+}
+#sentiment li p{
+    text-indent: 10px;
+}
+#sentiment li p span{
+    line-height: 24px;
+}
+#sentiment li p del{
+    line-height: 24px;
+    display: none;
+}
+
+/* 商品介绍 */
+#introduction{
+    margin-top: 45px;
+}
+/* 左边 */
+#introduction .leftbox{
+    width: 316px;
+    height: 2210px;
+    border:1px solid #e6e6e6;
+}
+#introduction .leftbox>p{
+    line-height:40px;
+    background:#f4f4f4;
+    width: 316px;
+    height: 40px;
+    text-indent: 8px;
+}
+#introduction .leftbox ul{
+    width: 292px;
+    padding:0 12px 0;
+}
+#introduction .leftbox ul li{
+    width: 292px;
+    height: 270px;
+    border-bottom:1px solid #e6e6e6;
+}
+#introduction .leftbox ul li:last-of-type{
+    border-bottom:0px;
+}
+#introduction .leftbox ul li .box{
+    margin:38px 57px 0;
+    width: 180px;
+    height: 243px;
+}
+#introduction .leftbox ul li .box>a{
+    margin-left: 30px;
+}
+#introduction .leftbox ul li .box p{
+    text-indent: 10px;
+}
+/* 右边 */
+#introduction .rightbox{
+    width: 870px;
+    height: 2210px;
+    background:#f2f2f2;
+}
+#introduction .rightbox .box{
+    position: relative;
+    height: 47px;
+    border-bottom: 6px solid #f60;
+}
+#introduction .rightbox .box button{
+    position: absolute;
+    text-align: center;
+    line-height: 47px;
+    width: 150px;
+    height: 47px;
+    bottom: 0px;
+    border:0;
+    outline: none;
+    background:#fff;
+}
+#introduction .rightbox .box button.active{
+    background:#f60;
+    color:#fefefe;
+}
+#introduction .rightbox .box button:last-of-type{
+    position: relative;
+    left:150px;
+}
+#introduction .rightbox .box1{
+    width: 790px;
+    height: 80px;
+    margin:45px auto;
+}
+#introduction .rightbox .box1 .box2{
+    position: absolute;
+    line-height:50px;
+    font-size: 72px;
+    width: 110px;
+    height: 80px;
+    color:#f8380c;
+}
+#introduction .rightbox .box1 .box2 span{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+}
+#introduction .rightbox .box1 .box3{
+    width: 600px;
+    height: 80px;
+    background:#0f0;
+}
+#introduction .rightbox .box1 .box3 li{
+    float: left;
+}

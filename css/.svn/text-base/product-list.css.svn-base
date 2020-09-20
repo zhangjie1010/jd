@@ -1,0 +1,555 @@
+@charset 'utf-8';
+/* 头部 */
+header .searchbox .releft{
+    position: absolute;
+    width: 200px;
+    height: 112px;
+    background:#f60 url("../商城素材/img/logo1_02.jpg") no-repeat;
+    background-size: 200px 112px;
+    top:-32px;
+}
+
+/* banner */
+#banner {
+    height: 527px;
+    position: relative;
+}
+/* 左边轮播图 */
+.pptbox{
+    width: 1000px;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+.pptbox  .innerwrapper{
+    width:2400px;/*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+    height: 100px;
+    list-style: none;
+    position: absolute;
+    left: -400px;
+}
+.innerwrapper li
+{
+    width:400px;
+    height:100px;
+    float: left;
+}
+.innerwrapper li a
+{
+    display: block;
+}
+.innerwrapper li a img
+{
+    width: 1000px;
+    height:400px;
+    display:block;
+}
+.btnleft{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    left:0;
+    top:25px;
+    background-color: black;
+    background-image:url(../images/arrow-left.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    z-index: 50;
+    color:#fff;
+}
+.btnright{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    right:0;
+    top:25px;
+    background-color: black;
+    background-image:url(../images/arrow-right.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    z-index: 50;
+    color:#fff;
+    
+}
+/*控制按钮开始*/
+.controls{
+    width:150px !important;
+    position: absolute;
+    margin:0 auto;
+    bottom:10px;
+    list-style: none;
+}
+.controls li{
+    width: 20px;
+    height:20px;
+    background-color: gold;
+    float: left;
+    margin-right:10px;
+    text-align: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.controls li.current
+{
+    background-color:aqua;
+    color: brown;
+}
+
+/* 右侧选项卡 */
+#banner .frtbox{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 430px;
+}
+#banner .frtbox>p{
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    text-indent: 10px;
+}
+#banner .frtbox ul{
+    height: 400px;
+    width: 200px;
+}
+#banner .frtbox ul li{
+    position: relative;
+    border-top: 1px solid #ccc;
+    cursor: pointer;
+}
+#banner .frtbox ul li span{
+    position: absolute;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    right:0;
+}
+#banner .frtbox ul li .box{
+    width: 100%;
+    height: 40px;
+    background:url("../商城素材/img/index08_05.jpg") no-repeat 10px 0;
+    background-size:90px ;
+}
+#banner .frtbox ul li .box p{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#banner .frtbox ul li:first-child .box{
+    display:none;
+}
+#banner .frtbox ul li:first-child .two{
+    display:block;
+}
+#banner .frtbox .two{
+    margin-top: 20px;
+    width: 100%;
+    height: 140px;
+    display: none;
+}
+#banner .frtbox .two img{
+    display: inline-block;
+    width: 100px;
+    height: 140px;
+}
+#banner .frtbox .two p{
+    width: 100px;
+    height: 140px;
+}
+#banner .fimg{
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+    height: 90px;
+    background:#f60 url("../商城素材/img/mosho.jpg");
+}
+
+/* 图书折扣 */
+#discount .box{
+    margin-top: 25px;
+    height: 47px;
+    border-bottom: 6px solid #f60;
+}
+#discount .box p{
+    margin:0;
+    width: 220px;
+    height: 47px;
+    background:#f60;
+    line-height: 47px;
+    text-align: center;
+}
+
+#discount .btbox{
+    height: 524px;
+}
+#discount .btbox li{
+    float: left;
+    width: 210px;
+    height: 258px;
+    margin-bottom: 4px;
+    margin-right: 37px;
+}
+#discount .btbox li:nth-child(5){
+    margin-right: 0;
+}
+#discount .btbox li:nth-child(10){
+    margin-right: 0;
+}
+#discount .btbox li a img{
+    margin:7px 30px 0;
+    /* 处理图片三像素问题 */
+    vertical-align: middle;
+}
+#discount .btbox li p{
+    text-indent: 10px;
+}
+#discount .btbox li p span{
+    line-height: 24px;
+}
+#discount .btbox li p del{
+    line-height: 24px;
+    display: none;
+}
+
+/* 新书上架 */
+#selves{
+    margin-top: 30px;
+    position: relative;
+}
+/* 左边内容 */
+.fltbox{
+    width: 904px;
+}
+.biaoti{
+    border-bottom: 6px solid #f60;
+}
+.biaoti .box{
+    width: 42px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    margin-right: 5px;
+}
+.biaoti .box1{
+    line-height: 38px;
+}
+#selves .fltbox .btbox{
+    width: 898px;
+    height: 462px;
+    padding:18px 0 18px 2px;
+    border:2px solid #e5e5e5;
+    border-top: 0;
+}
+#selves .fltbox .btbox li{
+    float: left;
+    width: 170px;
+    height: 220px;
+    margin-left: 9px;
+}
+#selves .fltbox .btbox li img{
+    margin:0 10px;
+    /* 清除图片三像素 */
+    vertical-align: middle;
+}
+#selves .fltbox .btbox li p{
+    margin-left: 11px;
+}
+#selves .fltbox .btbox li p:nth-child(2){
+    margin-top: 3px;
+}
+#selves .fltbox .btbox li p:nth-child(3){
+    margin-top: 8px;
+}
+#selves .fltbox .btbox li.box{
+    margin-bottom: 24px;
+}
+
+
+/* 右边内容 */
+#selves .frtbox{
+    position: absolute;
+    right: 0;
+    top: 38px;
+    width: 258px;
+    height: 502px;
+    border:2px solid #e5e5e5;
+    padding-left: 24px;
+}
+#selves .frtbox>p{
+    margin-left: 70px;
+    line-height: 42px;
+}
+#selves .frtbox li{
+    border-bottom: 2px solid #e6e6e6;
+}
+#selves .frtbox li:last-child{
+    border:0;
+}
+#selves .frtbox li span{
+    position: absolute;
+    left:10px;
+    font-size: 16px;
+    line-height: 35px;
+}
+#selves .frtbox li .box1{
+    line-height: 40px;
+}
+#selves .frtbox li .two{
+    width: 258px;
+    height: 170px;
+    position: relative;
+    display: none;
+}
+#selves .frtbox li:first-child .box1{
+    display: none;
+}
+#selves .frtbox li:first-child .two{
+    display:block;
+}
+#selves .frtbox li .two p{
+    width: 135px;
+    margin: 10px 5px;
+}
+
+/* 独家提供 */
+#exclusive{
+    margin-top: 50px;
+}
+#exclusive .biaoti button{
+    margin-top: 4PX;
+    text-align: center;
+    line-height: 34px;
+    background:#fff;
+    outline: none;
+    border:0;
+    width: 96px;
+    height: 34px;
+    font-size: 18px;
+    color:#333;
+}
+#exclusive .biaoti button.abc{
+    background:#f60;
+    color:#fff;
+}
+/* 轮播图 */
+#exclusive .pptbox{
+    width: 1200px;
+    padding-top: 24px;
+    height: 518px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid #e6e6e6;
+}
+#exclusive .pptbox  .innerwrapper{
+    width:9600px;/*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+    height: 525px;
+    list-style: none;
+    position: absolute;
+    left: -1200px;
+}
+#exclusive .controls li{
+    width: 10px;
+    height:10px;
+    background-color: gold;
+    float: left;
+    margin-right:10px;
+    text-align: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+#exclusive .innerwrapper .boxes
+{
+    width:1200px;
+    height:525px;
+    float: left;
+}
+#exclusive .btnleft{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    left:0;
+    top:25px;
+    background-color: black;
+    background-image:url(../images/arrow-left.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    z-index: 50;
+    color:#fff;
+}
+#exclusive .btnright{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    right:0;
+    top:25px;
+    background-color: black;
+    background-image:url(../images/arrow-right.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    z-index: 50;
+    color:#fff;
+    
+}
+/*控制按钮开始*/
+#exclusive .controls{
+    width:160px !important;
+    position: absolute;
+    margin:0 auto;
+    bottom:10px;
+    list-style: none;
+}
+#exclusive .controls li{
+    width: 20px;
+    height:20px;
+    background-color: gold;
+    float: left;
+    margin-right:10px;
+    text-align: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+#exclusive .controls li.current
+{
+    background-color:aqua;
+    color: brown;
+}
+
+#exclusive .boxes li{
+    float: left;
+    width: 170px;
+    height: 258px;
+    display: block;
+    margin-bottom: 4px;
+    margin-left: 25px;
+}
+#exclusive .boxes li:nth-child(6){
+    margin-right: 0;
+}
+#exclusive .boxes li:nth-child(12){
+    margin-right: 0;
+}
+#exclusive .boxes li a img{
+    width: 150px;
+    height: 150px;
+    margin:7px 9px 0;
+    /* 处理图片三像素问题 */
+    vertical-align: middle;
+}
+#exclusive .boxes li p{
+    text-indent: 10px;
+}
+#exclusive .boxes li p:nth-child(2){
+    margin-top: 3px;
+}
+#exclusive .boxes li p:nth-child(3){
+    margin-top: 8px;
+}
+#exclusive .boxes li p span{
+    line-height: 24px;
+}
+#exclusive .boxes li p del{
+    line-height: 24px;
+    display: none;
+}
+
+/* 猜你喜欢 */
+#guessLikes{
+    margin-top: 40px;
+}
+#guessLikes .biaoti{
+    position: relative;
+}
+#guessLikes .biaoti button{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 40px;
+    background:url("../商城素材/img/huan.jpg") no-repeat  0px 4px;
+    text-indent: 40px;
+    border:0;
+    outline: none;
+}
+/* 内容 */
+#guessLikes .noeBox{
+    overflow: hidden;
+    width: 1200px;
+    margin-left: 0px;
+}
+#guessLikes .outBox{ 
+    padding-top:18px;
+    width: 6000px;
+    height: 500px;
+    border-bottom: 2px solid #e6e6e6;
+}
+#guessLikes .boxes{
+    float: left;
+    width: 1200px;
+    height: 498px;
+}
+#guessLikes .boxes li{
+    float: left;
+    width: 170px;
+    height: 258px;
+    display: block;
+    margin-bottom: 4px;
+    margin-left: 25px;
+}
+#guessLikes .boxes li:nth-child(6){
+    margin-right: 0;
+}
+#guessLikes .boxes li:nth-child(12){
+    margin-right: 0;
+}
+#guessLikes .boxes li a img{
+    width: 150px;
+    height: 150px;
+    margin:7px 9px 0;
+    /* 处理图片三像素问题 */
+    vertical-align: middle;
+}
+#guessLikes .boxes li p{
+    text-indent: 10px;
+}
+#guessLikes .boxes li p:nth-child(2){
+    margin-top: 3px;
+}
+#guessLikes .boxes li p:nth-child(3){
+    margin-top: 8px;
+}
+#guessLikes .boxes li p span{
+    line-height: 24px;
+}
+#guessLikes .boxes li p del{
+    line-height: 24px;
+    display: none;
+}
+
+/* 底部 */
+#dibu{
+    margin-top: 30px;
+}
+#dibu li a{
+    float: left;
+    width: 200px;
+    height: 113px;
+    background:#0f0;
+    background:url("../商城素材/素材图片/促销活动用图/2016080314240628345.jpg");
+}
+#dibu .fimg{
+    margin-top: 14px;
+    width: 1200px;
+    height: 90px;
+    background:#f60 url("../商城素材/img/mosho.jpg");
+}
+
+footer .fot{
+    margin-top: 0;
+}
+
+

@@ -1,0 +1,331 @@
+@charset 'utf-8';
+body{
+    font-family:"SimHei";
+    font-size: 14px;
+    color:#333;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 版心 */
+.warp{
+    width:1200px;
+    margin:auto;
+}
+a,button{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+/* 字体 */
+.fmy{
+    font-family: "MicrosoftYaHei";
+}
+/* 左浮动 */
+.fl{
+    float:left;
+}
+/* 右浮动 */
+.fr{
+    float: right;
+}
+/* 清浮动 */
+.clearfix::after{
+    content:"";
+    height: 0;
+    display:block;
+    clear: both;
+    zoom: 1;
+}
+/* 字体加粗 */
+.fontb{
+    font-weight: bold;
+}
+/* 字体大小 */
+.f12{font-size: 12px;}
+.f16{font-size: 16px;}
+.f18{font-size: 18px;}
+.f20{font-size: 20px;}
+.f22{font-size: 22px;}
+.f24{font-size: 24px;}
+.f26{font-size: 26px;}
+.f28{font-size: 28px;}
+.f30{font-size: 30px;}
+/* 字体颜色 */
+.c74{
+    color:#747474;
+}
+.cfe{
+    color:#fefefe;
+}
+.c64{
+    color:#646464;
+}
+.c6c{
+    color:#6c6c6c;
+}
+.cf80{
+    color:#f80e0e;
+}
+.fb2{
+    color:#fb2f2f;
+}
+.cf231{
+    color:#ff2315;
+}
+.c1a{
+    color:#1a1a1a;
+}
+.cb3{
+    color:#b3b3b3;
+}
+.cbf{
+    color:#bfbfbf;
+}
+.c66{
+    color:#666;
+}
+.c468{
+    color:#468cfc;
+}
+.ca6{
+    color:#a6a6a6;
+}
+.cc0{
+    color:#c0c0c0;
+}
+.cf60{
+    color:#f60;
+}
+.cf42{
+    color:#f4290d;
+}
+.cfff{
+    color:#fff;
+}
+.c26{
+    color:#262626;
+}
+.ce6{
+    color:#e6e6e6;
+}
+.c33{
+    color:#333;
+}
+.c4d{
+    color:#4d4d4d;
+}
+.cf9{
+    color:#f91616;
+}
+.c80{
+    color:#808080;
+}
+.ce3{
+    color:#e30c02;
+}
+.c99{
+    color:#999;
+}
+.c000{
+    color:#000;
+}
+.cfff{
+    color:#fff;
+}
+.c32{
+    color:#323232;
+}
+/* 背景色 */
+.bg93{
+    background:#93d46f;
+}
+.bgf60{
+    background:#f60;
+}
+.bgf3{
+    background:#f3f3f3;
+}
+.bgeb{
+    background:#ebebeb;
+}
+.bgf2{
+    background:#f2f2f2;
+}
+.bgccc{
+    background:#ccc;
+}
+.bg999{
+    background:#999;
+}
+.bgb3{
+    background:#b3b3b3;
+}
+/* 块标签 */
+.blo{
+    display:block;
+}
+/* 行内标签 */
+.inl{
+    display: inline;
+}
+/* 行内块 */
+.inBlock{
+    display:inline-block;
+}
+/* 显示 */
+.show{
+    display:block;
+}
+/* 隐藏 */
+.hide{
+    display:none;
+}
+
+/* 通用头部样式 */
+header{
+    height: 112px;
+}
+header .top{
+    height: 28px;
+    line-height: 28px;
+    background:#101010;
+}
+header .top .logintxtbox a{
+    color:#f60;
+}
+header .top .warp{
+    position: relative;
+}
+header .top .txturl{
+    position: absolute;
+    left:200px;
+}
+
+/* 搜索框 */
+header .searchbox{
+    margin-top: 4px;
+    position: relative;
+}
+
+header .searchbox .releft{
+    position: absolute;
+    width: 200px;
+    height: 112px;
+    background:#f60 url("../商城素材/img/logo.jpg") no-repeat;
+    top:-32px;
+}
+
+header .searchbox .box{
+    position: relative;
+    width: 436px;
+    height: 32px;
+    border:2px solid #f60;
+    margin-right: 36px;
+}
+header .searchbox .box input:first-child{
+    width: 386px;
+    height: 30px;
+    border:0;
+    text-indent: 8px;
+    outline: none;
+}
+header .searchbox .box input:last-child{
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 32px;
+    border:0;
+    background: url("../商城素材/img/bgicon.png");
+    outline: none;
+    cursor: pointer;
+}
+
+header .searchbox .box2{
+    width: 200px;
+    height: 36px;
+
+}
+header .searchbox .box2 a{
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+}
+header .searchbox .box2 a:first-child span{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url("../商城素材/img/bgicon.png");
+    background-position: 0 -42px;
+}
+header .searchbox .box2 a:first-child i{
+    font-style: normal;
+}
+header .searchbox .box2 a:last-child{
+    width: 98px;
+    height: 34px;
+    border:1px solid #ccc;
+    text-align: center;
+}
+/* 导航 */
+header .liebiao{
+    width: 1002px;
+    height: 24px;
+    padding-left: 198px;
+    margin-top: 20px;
+}
+header .liebiao li a{
+    margin-left: 32px;
+    color:#323232;
+}
+
+
+/* 尾部 */
+footer .fot{
+    margin-top: 26px;
+    height: 94px;
+    border-top: 6px solid #f60;
+    background:#f2f2f2;
+}
+footer .fot .warp ul{
+    padding-left: 200px;
+}
+footer .fot li{
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    margin:20px 80px 0 0;
+}
+
+footer .xia{
+    padding-top: 30px;
+    height: 180px;
+}
+footer .xia ul:first-child{
+    margin-left:230px;
+}
+footer .xia ul li{
+    text-align: center;
+    width: 145px;
+    margin-bottom: 10px;
+}
+footer .xia .he{
+    width: 180px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+footer .txt{
+    height: 160px;
+}
+footer .txt p a{
+    color:#333;
+    font-size: 14px;
+}
+footer .txt p{
+    text-align: center;
+}
+
