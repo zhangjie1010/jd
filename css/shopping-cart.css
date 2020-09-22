@@ -16,8 +16,10 @@ header .searchbox .releft{
     top:-32px;
 }
 /* 购物车 */
-#shooping button{
+button{
     background:#fff;
+    outline: none;
+    user-select: none;
 }
 #shooping button.active{
     background: #f60;
@@ -43,7 +45,6 @@ header .searchbox .releft{
     float: left;
 }
 #shooping .box1{
-    height: 423px;
     margin-top: 19px;
     border-top: 6px solid #dfdfdf;
 }
@@ -79,7 +80,7 @@ header .searchbox .releft{
     height: 26px;
     border:1px solid #ccc;
     margin-top: 15px;
-    margin-left: 75px;
+    margin-left: 70px;
 }
 #shooping .box1 li .ctn .anniu .bt1{
     margin:0;
@@ -122,6 +123,9 @@ header .searchbox .releft{
     margin-top: 22px;
     width: 100px;
 }
+#shooping .box1 li .ctn .sc p{
+    cursor: pointer;
+}
 
 
 #shooping .box2{
@@ -150,7 +154,7 @@ header .searchbox .releft{
     width: 128px;
     height: 60px;
 }
-#shooping .box2 .lisRight button{
+#shooping .box2 .lisRight a{
     width: 128px;
     height: 60px;
     position: absolute;
@@ -158,7 +162,9 @@ header .searchbox .releft{
     border:0;
     right: 0;
     top:0;
-    outline: none;s
+    outline: none;
+    text-align: center;
+    line-height: 60px;
 }
 
 
