@@ -1,0 +1,174 @@
+@charset 'utf-8';
+/* 头部 */
+/* 显示 */
+#contnt .show{
+    display:block;
+}
+/* 隐藏 */
+#contnt .hide{
+    display:none;
+}
+header{
+    height: 105px;
+}
+header .top .txturl{
+    position: absolute;
+    left:265px;
+}
+header .searchbox .releft{
+    position: absolute;
+    width: 258px;
+    height: 105px;
+    background:#f60 url("../商城素材/img/04-ghouwu.jpg") no-repeat;
+    background-size: 258px 105px;
+    top:-32px;
+}
+header .searchbox h1{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background:#f60;
+    left: 140px;
+    text-align: center;
+    top:-15px;
+    z-index: 10;
+}
+header .searchbox p{
+    position: absolute;
+    top:20px;
+    left:280px;
+}
+
+
+/* 内容 */
+#contnt{
+    height: 500px;
+    background:#e93854;
+}
+#contnt .warp{
+    padding-top: 65px;
+    height: 435px;
+    background:url("../商城素材/img/jdbg.png") no-repeat 120px 0;
+    background-size: 990px 475px;
+    z-index: 10;
+}
+#contnt .denglu{
+    margin-left: 750px;
+    width: 350px;
+    height: 370px;
+    background:#fff;
+}
+#contnt .denglu .topbox{
+    height: 55px;
+    border-bottom: 1px solid #f6f6f6;
+    text-align: center;
+}
+#contnt .denglu .topbox p{
+    display: inline-block;
+    width: 175px;
+}
+#contnt .denglu .topbox p a{
+    display: inline-block;
+    width: 174px;
+    height: 24px;
+    margin-top:15px;
+}
+#contnt .denglu .topbox p a.active{
+    color:#f60;
+}
+#contnt .denglu .topbox p:first-child a{
+    border-right:1px solid #ccc;
+}
+#contnt .denglu .box{
+    position: relative;
+}
+#contnt .denglu .box .one{
+    position: absolute;
+    width: 141px;
+    height: 168px;
+    /* right: 8px; */
+    top: 55px;
+    right: 110px;
+    z-index: 10;
+}
+#contnt .denglu .box .two{
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 29px;
+    top: 65px;
+    display: none;
+}
+#contnt .denglu .box .btm{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    bottom: -310px;
+}
+#contnt .denglu .tbox{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+#contnt .denglu .tbox h1{
+    margin: 0;
+}
+
+
+
+#contnt .denglu .box2 p{
+    position: relative;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#contnt .denglu .box2 p input{
+    position: absolute;
+    border:1px solid #d9d9d9;
+    width: 230px;
+    height: 28px;
+    right: 60px;
+    top:0;
+    outline: none;
+}
+#contnt .denglu .box2 span{
+    text-indent: 10px;
+}
+
+#contnt .denglu .box2 .box3 input{
+    width:230px;
+    left:60px;
+}
+
+#contnt .denglu .box2 .box3 button{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border:0;
+    right: 59px;
+    outline: none;
+    font-size: 16px;
+    color:#4d4d4d;
+    line-height: 30px;
+}
+label{
+    color:#f00;
+    position: absolute;
+    bottom: -20px;
+    font-size: 16px;
+    left: 56px;
+}
+/* 尾部 */
+#foot{
+    text-align: center;
+    line-height: 24px;
+}
+#foot p{
+    margin-top: 26px;
+}
+#foot p a{
+    line-height: 24px;
+    font-size: 14px;
+    color:#333;
+}

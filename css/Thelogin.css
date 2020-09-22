@@ -1,0 +1,177 @@
+@charset 'utf-8';
+/* 头部 */
+header{
+    height: 105px;
+    box-shadow: 0px 1px 8px 0px 
+		rgba(146, 146, 146, 0.4);
+}
+header .top .txturl{
+    position: absolute;
+    left:265px;
+}
+header .searchbox .releft{
+    position: absolute;
+    width: 258px;
+    height: 105px;
+    background:#f60 url("../商城素材/img/04-ghouwu.jpg") no-repeat;
+    background-size: 258px 105px;
+    top:-32px;
+}
+header .searchbox h1{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background:#f60;
+    left: 140px;
+    text-align: center;
+    top:-15px;
+    z-index: 10;
+}
+header .searchbox p{
+    position: absolute;
+    top:20px;
+    left:280px;
+}
+header .searchbox .rrbox{
+    width: 200px;
+    height:40px;
+    position: absolute;
+    right: 30px;
+    bottom: -70px;
+}
+
+/* 内容 */
+#bdy{
+    padding-top: 56px;
+    height: 641px;
+    margin:0 auto;
+}
+#bdy .ipt{
+    width: 400px;
+    height: 605px;
+    margin:0 auto 0;
+}
+#bdy .ipt p{
+    position: relative;
+    width: 398px;
+    height: 42px;
+    border:1px solid #d9d9d9;
+    margin-bottom: 48px;
+}
+#bdy .ipt p input{
+    position: absolute;
+    border:0;
+    width: 268px;
+    height: 42px;
+    right: 0;
+    top:0;
+    outline: none;
+}
+input:placeholder{
+    color:#ccc;
+}
+#bdy .ipt p span{
+    display: inline-block;
+    line-height: 42px;
+    width: 130px;
+    height: 42px;
+    text-indent: 10px;
+}
+#bdy .ipt p.box{
+    position: relative;
+    height: 40px;
+    text-indent: 18px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    border:0;
+}
+#bdy .ipt p.box input{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top:10px;
+    left:0;
+    border:1px solid #e5e5e5;
+    background:#fff;
+}
+
+#bdy .ipt p.box span{
+    display: inline;
+    line-height: 22px;
+    text-indent: 0;
+}
+#bdy .ipt form p:last-child{
+    border:0px;
+    margin-bottom: 0;
+}
+#bdy .ipt form p:last-child input{
+    width: 400px;
+    height: 44px;
+    border:0;
+    background:#f60;
+    color:#fff;
+    cursor: pointer;
+}
+#bdy .ipt .box1 input{
+    width: 144px;
+    right:124px;
+}
+#bdy .ipt .box1 button{
+    position: absolute;
+    width: 122px;
+    height: 42px;
+    border:1px solid #fff;
+    right: 0;
+    outline: none;
+    background:#1a83e5;
+    font-size: 28px;
+    color:#fff;
+    line-height: 42px;
+}
+#bdy .ipt .box2{
+    margin-bottom: 0;
+}
+#bdy .ipt .box2 input{
+    width: 144px;
+    right:124px;
+}
+
+#bdy .ipt .box2 button{
+    position: absolute;
+    width: 122px;
+    height: 42px;
+    border:1px solid #fff;
+    right: 0;
+    outline: none;
+    font-size: 16px;
+    color:#4d4d4d;
+    line-height: 42px;
+}
+#bdy .ipt p.box2 label{
+    color:#f00;
+    bottom: 10px;
+    font-size: 16px;
+    left: 130px;
+}
+label{
+    color:#f00;
+    position: absolute;
+    bottom: -35px;
+    font-size: 20px;
+    left: 0;
+}
+
+/* 尾部 */
+#foot{
+    text-align: center;
+    line-height: 24px;
+}
+#foot p{
+    margin-top: 26px;
+}
+#foot p a{
+    line-height: 24px;
+    font-size: 14px;
+    color:#333;
+}
